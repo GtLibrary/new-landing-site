@@ -1,0 +1,37 @@
+.feature-collection {
+    background-image: url("/public/img/section-features.png");
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    padding: 60px 0px 120px 0px;
+    /* background-size: cover; */
+}
+.feature-item {
+    background-image: url("/public/img/feature-item.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 60px;
+    margin-top: 64px;
+}
+.feature-item-body {
+    padding-left: 40px;
+}
+.feature-item-title {
+    font-family: "Crimson Text";
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.feature-item-content {
+    font-family: "Crimson Text";
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}

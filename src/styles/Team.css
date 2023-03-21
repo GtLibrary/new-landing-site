@@ -1,0 +1,105 @@
+.team-area {
+    /* margin-top: 260px !important; */
+    background-image: url("/public/img/section-team.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.team-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Crimson Text";
+    font-size: 8vw;
+    color: #B95951;
+}
+.team-member-area {
+    margin-top: 100px !important;
+}
+.team-member-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.member-title {
+    font-size: 3vw;
+    color: #B95951;
+    text-align: center;
+    font-family: "Crimson Text";
+    text-transform: uppercase;
+}
+.member-description {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Crimson Text";
+    text-align: center;
+}
+.btn-contactus {
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: "Crimson Text" !important;
+    text-transform: uppercase;
+    background-color: #B95951 !important;
+    border-radius: 12px;
+}
+.btn-contactus:hover {
+    background-color: black !important;
+    color: #B95951 !important;
+}
+.signup-area {
+    text-align: left;
+}
+.signup-area h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Crimson Text";
+    text-transform: capitalize;
+}
+.signup-area p {
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+.btn-subscribe {
+    /* background-image: url("/public/img/btn-bg.png"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50% 50%;
+    color: black;
+    padding: 8px 25px !important;
+    font-family: "Leander";
+    position: absolute;
+    right: 0;
+}
+.btn-subscribe:active {
+    border: none;
+}
+.email-input, .email-input:focus, .email-input:active {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 0px 25px;
+    margin: 0 10px 0 0px;
+    outline: none;
+}
+.mail-area {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.team-member-avatar {
+    min-width: 240px;
+    min-height: 240px;
+    height:auto;
+    border-radius: 50%;
+    background: #dac8ba;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.team-member-avatar img {
+    margin: 0 auto;
+    border-radius: 50%;
+}

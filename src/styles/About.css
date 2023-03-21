@@ -1,0 +1,22 @@
+.about-section{
+    background-image: url("/public/img/section-about.png");
+    background-size: 100% 100%;
+}
+.about-body {
+    background-image: url("/public/img/about-content.png");
+    background-size: 100% 100%;
+    padding: 90px 120px;
+    margin: 50px 0;
+    text-align: left;
+}
+.about-title {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Crimson Text";
+    color: #B95951;
+}
+.about-content {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Crimson Text";
+}

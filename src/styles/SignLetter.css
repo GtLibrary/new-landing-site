@@ -1,0 +1,25 @@
+.signletter-area {
+    /* background-image: url("/public/img/signletter-bg.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 70px;
+    margin-top: 100px !important;
+    background-position: center top;
+    aspect-ratio: 2;
+}
+.btn-subscribe {
+    font-family: 'Leander' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    text-transform: capitalize !important;
+}
+.email-input {
+    font-family: 'Leander' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    text-transform: capitalize !important;
+}

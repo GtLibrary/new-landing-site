@@ -1,0 +1,30 @@
+.header {
+    position: relative;
+    z-index: 11;
+    background-color: transparent;
+}
+.header-effect {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+}
+.header-effect img {
+    width: 100%;
+    height: 100%;
+}
+.nav-header {
+    z-index: 11;
+}
+.header-brand {
+    font-size: 32px !important;
+    font-family: "Crimson Text";
+}
+.header-link {
+    font-family: "Leander";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.me-auto.navbar-nav {
+    margin: 0 auto;
+}
