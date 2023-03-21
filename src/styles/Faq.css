@@ -1,6 +1,9 @@
 .faq-section {
-    padding-top: 20%;
-    margin-top: -2px;
+    /* padding-top: 20%;
+    margin-top: -2px; */
+    background-image: url("/public/img/section-faq.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .faq-title {
     justify-content: center !important;
@@ -9,6 +12,13 @@
     font-weight: 600;
     font-family: "Crimson Text";
     color: #B95951 !important;
+}
+.faq-content {
+    background-image: url("/public/img/faq-content.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 85px 80px 130px 80px;
+    margin: 80px 0 120px 0;
 }
 .faq-body {
     font-family: "Crimson Text";

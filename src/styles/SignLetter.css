@@ -1,11 +1,22 @@
 .signletter-area {
-    /* background-image: url("/public/img/signletter-bg.png"); */
+    background-image: url("/public/img/newletter-background.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 70px;
-    margin-top: 100px !important;
-    background-position: center top;
-    aspect-ratio: 2;
+    background-size: 100% 100%;
+    padding: 130px 0px;
+}
+.signup-area {
+    background-image: url("/public/img/newsletter-content.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 160px 60px;
+    text-align: center;
+}
+.signup-area h2, .signup-area p {
+    color: #572E0C;
+}
+.mail-area {
+    max-width: 450px;
+    margin: 0 auto;
 }
 .btn-subscribe {
     font-family: 'Leander' !important;
@@ -14,6 +25,7 @@
     font-size: 18px !important;
     line-height: 24px !important;
     text-transform: capitalize !important;
+    background-image: url("/public/img/btn-bg.png");
 }
 .email-input {
     font-family: 'Leander' !important;

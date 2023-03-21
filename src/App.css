@@ -28,7 +28,13 @@
 .App-link {
   color: #61dafb;
 }
-
+.divider {
+  width: 100%;
+}
+.divider img {
+  width: 100%;
+  height: 40px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

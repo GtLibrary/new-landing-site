@@ -1,6 +1,7 @@
 import React from "react";
 import Faq from "react-faq-component";
 import Container from "react-bootstrap/Container";
+import { Row, Col } from "react-bootstrap";
 import "../styles/Faq.css"
 
 const data = {
@@ -69,12 +70,18 @@ const FAQ = () => {
     return (
         <div className="faq-section">
             <Container>
-                <div className="row">
-                    <h2 className="faq-title">FAQ</h2>
-                    <div className="col-lg-12" data-aos="fade-up">
-                        <Faq data={data} styles={styles} config={config} />
-                    </div>
-                </div>
+                <Row>
+                    <Col sm={12} md={1} lg={1} xl={1}></Col>
+                    <Col sm={12} md={10} lg={10} xl={10}>
+                        <div className="faq-content">
+                            <h2 className="faq-title">FAQ</h2>
+                            <div className="col-lg-12" data-aos="fade-up">
+                                <Faq data={data} styles={styles} config={config} />
+                            </div>
+                        </div>
+                    </Col>
+                    <Col sm={12} md={1} lg={1} xl={1}></Col>
+                </Row>
             </Container>
         </div>
     );

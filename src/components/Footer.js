@@ -7,9 +7,6 @@ const Footer = () => {
     const year = new Date().getFullYear();
     return (
         <div className="footer-body">
-          <div className="footer-effect">
-            <img src="/img/footer.png" alt="footer-img"></img>
-          </div>
           <div className='footer'>
             <div className="container footer-content">
               <div className="copyright">

@@ -1,8 +1,8 @@
 .team-area {
-    /* margin-top: 260px !important; */
     background-image: url("/public/img/section-team.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    padding: 60px 0px;
 }
 .team-title {
     text-align: center;

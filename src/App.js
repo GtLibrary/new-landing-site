@@ -9,6 +9,7 @@ import Team from "./components/Team";
 import FAQ from "./components/Faq";
 import SignLetter from "./components/SignLetter";
 import Footer from "./components/Footer";
+import Divider from "./components/Divider";
 import AOS from 'aos';
 import LoadingOverlay from "react-loading-overlay";
 import './App.css';
@@ -62,11 +63,17 @@ function App() {
       <Header />
       <ContentHeader />
       <Mission />
+      <Divider />
       <About />
+      <Divider />
       <Feature />
+      <Divider />
       <RoadmapComponent />
+      <Divider />
       <Team />
+      <Divider />
       <FAQ />
+      <Divider />
       <SignLetter />
       <Footer />
     </div>
