@@ -22,9 +22,8 @@
     justify-content: center;
 }
 .footer .social-icon {
-    width: 40px;
-    height: 40px;
-    border: 1px solid #f9d963;
+    /* width: 40px;
+    height: 40px; */
     border-radius: 50%;
     background-color: #000000;
     color: #f9d963;
@@ -39,8 +38,8 @@
 }
 
 .footer .social-icon-git {
-    width: 40px;
-    height: 40px;
+    /* width: 40px;
+    height: 40px; */
     border-radius: 50%;
     background-color: #000000;
     color: #f9d963;
