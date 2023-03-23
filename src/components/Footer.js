@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="footer-logo">
                   <img src="/img/book.png" alt="logo"></img> The Great Library
                 </div>
-                @Copyright greatlibrary.io 2021-2023. <br/>
+                @Copyright greatlibrary.io 2021-{year}. <br/>
                 All rights reserved.
               </div>
               <div className="social-area">
